@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+
+import '../Styles/Feed.css';
+
+import Hero from './Hero';
+
+import Message from './Message';
 
 const Feed = () => {
   return (
-    <div>Feed</div>
-  )
-}
+    <div className="feed">
+      {/* hero component */}
+      <Hero />
+      {/* message component */}
+      <Message />
+    </div>
+  );
+};
 
-export default Feed
+export default Feed;

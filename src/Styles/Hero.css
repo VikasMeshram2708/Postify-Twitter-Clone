@@ -1,0 +1,29 @@
+.hero {
+  background-color: black;
+  position: sticky;
+  display: grid;
+}
+
+.hero__title {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.hero__components > button {
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  width: 50%;
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.hero__button:hover {
+  text-decoration: 5px solid #1D9BF0 underline;
+  text-underline-offset: 10px;
+  /* text-decoration-color:#1D9BF0 ; */
+}
