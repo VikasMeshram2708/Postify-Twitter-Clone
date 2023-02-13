@@ -2,7 +2,7 @@
 
 ### Links
 
-  * [x] React Icons [https://react-icons.github.io/]
+  * [x] React Icons [https://react-icons.github.io/react-icons/]
 
 ### Development
 

@@ -4,6 +4,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid gray;
 }
 
 .message__userDetails {
