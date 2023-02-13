@@ -1,8 +1,8 @@
 .feed {
-  background-color: red;
   flex: .32;
   height: 100vh;
   overflow-y: scroll;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  border-left: 1px solid gray;
 }

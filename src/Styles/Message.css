@@ -1,5 +1,50 @@
 .message {
-  overflow: auto;
-  background-color: orange;
+  background-color: black;
   overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message__userDetails {
+  display: flex;
+  gap: 10px;
+}
+
+.message__userText {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.message__userImg {
+  border-radius: 2rem;
+  width: 50px;
+  height: 50px;
+}
+
+.message__button {
+  margin-left: auto;
+}
+
+.message__tweetBtn {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  width: 100px;
+  background-color:rgb(14, 171, 223);
+  border-radius: 2rem;
+  margin-top: 10px;
+}
+
+.message__tweetBtn:hover {
+  background-color: var(--twitter-color);
 }
