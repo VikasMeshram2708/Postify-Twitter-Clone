@@ -1,6 +1,7 @@
 .post {
   color: white;
   background-color: black;
+  border-bottom: 1px solid gray;
 }
 
 .post__forUser {

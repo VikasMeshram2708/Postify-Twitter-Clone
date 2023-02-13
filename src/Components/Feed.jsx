@@ -18,6 +18,12 @@ const Feed = () => {
 
       {/* Post Component */}
       <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 };

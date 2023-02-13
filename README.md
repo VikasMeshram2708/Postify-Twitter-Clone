@@ -17,3 +17,7 @@
     * [x] Create child Components inside Feed Component
 
     * [x] Note Only Feed Component should have scrollbar property.
+
+  * [x] Create Post Component
+
+    * [x] Create child components have user img, name, username, verified tick, settings button, img url, 5 links.

@@ -1,7 +1,7 @@
 .hero {
   background-color: black;
   position: sticky;
-  display: grid;
+  border-bottom: 1px solid gray;
 }
 
 .hero__title {
