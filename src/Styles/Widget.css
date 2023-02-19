@@ -1,0 +1,21 @@
+.widget {
+  flex: .38;
+  background-color: black;
+  border-left: 1px solid gray;
+}
+
+.widget__searchBarContainer {
+  display: grid;
+  place-items: center;
+  margin-top: 6px;
+}
+
+.widget__searchBar {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  font-size: 22px;
+  padding: 20px 30px;
+  width: 50%;
+}
+

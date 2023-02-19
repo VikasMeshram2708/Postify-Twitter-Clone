@@ -1,0 +1,48 @@
+.trendingTopics {
+  background-color: #16181C;
+  color: white;
+  margin: 10px auto;
+  height: 50%;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.widget__trendingTitle {
+  padding: 10px;
+}
+
+.widget__trendingTopics {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+
+}
+
+.widget__topicButton {
+  font-size: 22px;
+  text-align: center;
+  background-color: #16181C;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.widget__trendingTitle {
+  font-size: 14px;
+}
+
+.widget__linkTitle {
+  margin-left: 10px;
+}
+
+.widget__linkBreak {
+  margin: auto;
+  width: 50%;
+}
+
+.trendingTopics__button {
+  margin-top: 30px;
+  display: grid;
+  place-items: center;
+}
